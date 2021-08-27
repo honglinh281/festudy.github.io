@@ -6,6 +6,9 @@
 html{
     font-family:Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: auto !important;
+
+
 }
 .row::after{
     content:"";
