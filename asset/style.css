@@ -465,6 +465,7 @@ html{
     background-color:#000;
     float: right;
     padding: 10px 16px;
+    -webkit-appearance:none;
 }
 
 .contact-form .form-submit-btn:hover{
