@@ -1,0 +1,152 @@
+/* btn mobile & tablet */
+@media only screen and (max-width:1023px) {
+    #nav .subnav a{
+        padding: 0 12px;
+    }
+
+    .place-buy-btn{
+        padding:15px 16px;
+    }
+
+    .contact-form .form-control{
+        padding:15px;
+    }
+
+    .footer-icon{
+        font-size: 48px;
+    }
+    .footer-icon a{
+        margin: 0 8px; 
+    }
+    
+    .footer-text a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+/* tablet */
+@media only screen and (min-width:740px ) and (max-width:1023px){
+    #content .content-section{
+        max-width: 100%;
+        width:800px;
+        padding: 64px 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width:739px){
+    .s-full-width{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    .s-col-full{
+        width:100% !important;
+    }
+
+    #nav{
+        display:block;
+    }
+    
+
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        background-color: #333;
+        position: initial;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 40px;
+    }
+    #nav .subnav a:hover{
+        color: #000;
+        background-color: #ccc;
+    } 
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #header{
+        overflow:hidden;
+    }
+
+    #header .mobile-menu-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn{
+        float: right;
+        padding:0 21px;
+    }
+    #header .mobile-menu-btn:hover{
+        color:#000;
+        background-color:#ccc;
+    }
+    #header .mobile-menu-btn:hover .menu-icon{
+        color:#000;
+    }
+
+    #header .menu-icon{
+        line-height:46px;
+        color: #fff;
+        font-size: 20px;
+    }
+    #slider .text-content {
+        display: none;
+    }
+
+    #content .content-section{
+        max-width: 100%;
+        width:800px;
+        padding: 30px 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    #content .member-item{
+        padding: 30px;
+        width: 100%;
+    }
+    
+    #content .member-img{
+        width: 60%;
+    }
+    /* .place-item{
+        width:100%;
+        margin-top: 16px;
+    } */
+    
+    .contact-form{
+        margin-top: 16px;
+        margin-bottom: 46px;
+   }
+   .place-buy-btn{
+       width: 100%;
+       text-align: center;
+   }
+    
+}
+
+/* pc */
+@media screen and (min-width:1024px){
+    
+}
